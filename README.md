@@ -28,7 +28,7 @@ An online marketplace dedicated to showcasing and selling exquisite handcrafted 
 
 - **Hosting**: Vercel
 
-You can access the demo usersection by navigating to (https://artisan-ecommerce-platform-frontend.vercel.app/login) and using the following credentials:
+You can access the demo user section by navigating to (https://artisan-ecommerce-platform-frontend.vercel.app/) and using the following credentials:
 
 ```plaintext
 Username: admin@forever.com
