@@ -72,14 +72,34 @@ npm i cors dotenv express jsonwebtoken mongoose multer nodemon stripe validator 
 npm install axios react-router-dom react-toastify
 npm run dev
 ```
+
+Create a .env file in the client directory to store environment-specific variables:
+
+```VITE_BACKEND_URL=http://localhost:4000```
+
 **Backend Setup**
 ```bash
 cd Backend
 npm run server
+```
+Create a .env file in the Backend directory and add the following:
+```
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=your_jwt_secret
+ADMIN_EMAIL = your email 
+ADMIN_PASSWORD=your password
+STRIPE_SECRET_KEY=your_stripe_secret_key
+CLOUDINARY_CLOUD_NAME=your_cloudinary_cloud_name
+CLOUDINARY_API_KEY=your_cloudinary_api_key
+CLOUDINARY_API_SECRET=your_cloudinary_api_secret
 ```
 **Admin Setup**
 ```bash
 cd admin
 npm run dev
 ```
+## Contact
 
+For inquiries or feedback, please reach out to:
+
+Email: kashavenisruthi@gmail.com
