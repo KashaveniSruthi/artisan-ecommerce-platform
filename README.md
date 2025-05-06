@@ -40,7 +40,7 @@ An online marketplace dedicated to showcasing and selling exquisite handcrafted 
 ![About](handloom_ecommerce/src/assets/forever_about.png)
 
 
-You can access the demo user section by navigating to  (https://artisan-ecommerce-platform-frontend.vercel.app/)  and using the following credentials in profile section:
+You can access the demo user section by navigating to  (https://artisan-ecommerce-platform-frontend.vercel.app/login)  and using the following credentials in profile section:
 
 ```plaintext
 Username: admin@forever.com
