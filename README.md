@@ -44,15 +44,30 @@ Password: 12345678
 
 **Prerequisites**
 - Node.js (v14 or higher)
-
 - MongoDB
-
 - npm or yarn
+
 #Installation
+
 Clone the repository
 https://github.com/KashaveniSruthi/artisan-ecommerce-platform.git
 
-
 **Frontend Setup**
 Navigate to the client directory:
+```bash
 cd handloom_ecommerce
+npm i cors dotenv express jsonwebtoken mongoose multer nodemon stripe validator cloudinary bcrypt
+npm install axios react-router-dom react-toastify
+npm run dev
+```
+**Backend Setup**
+```bash
+cd Backend
+npm run server
+```
+**Admin Setup**
+```bash
+cd admin
+npm run dev
+```
+
