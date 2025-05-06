@@ -40,7 +40,8 @@ An online marketplace dedicated to showcasing and selling exquisite handcrafted 
 ![About](handloom_ecommerce/src/assets/forever_about.png)
 
 
-You can access the demo user section by navigating to  (https://artisan-ecommerce-platform-frontend.vercel.app/)  and using the following credentials in profile section:
+
+You can access the demo user section by navigate to  (https://artisan-ecommerce-platform-frontend.vercel.app/)  and using the following credentials in profile section:
 
 ```plaintext
 Username: admin@forever.com
@@ -62,10 +63,14 @@ Password: 12345678
 #Installation
 
 Clone the repository
+```
 https://github.com/KashaveniSruthi/artisan-ecommerce-platform.git
+```
 
 **Frontend Setup**
+
 Navigate to the client directory:
+
 ```bash
 cd handloom_ecommerce
 npm i cors dotenv express jsonwebtoken mongoose multer nodemon stripe validator cloudinary bcrypt
@@ -75,7 +80,9 @@ npm run dev
 
 Create a .env file in the client directory to store environment-specific variables:
 
-```VITE_BACKEND_URL=http://localhost:4000```
+```
+VITE_BACKEND_URL=http://localhost:4000
+```
 
 **Backend Setup**
 ```bash
@@ -97,6 +104,11 @@ CLOUDINARY_API_SECRET=your_cloudinary_api_secret
 ```bash
 cd admin
 npm run dev
+```
+
+Create a .env file in the admin directory and add the 
+```
+VITE_BACKEND_URL='http://localhost:4000'
 ```
 ## Contact
 
