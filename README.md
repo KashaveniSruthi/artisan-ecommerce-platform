@@ -28,7 +28,12 @@ An online marketplace dedicated to showcasing and selling exquisite handcrafted 
 
 - **Hosting**: Vercel
 
-# Installation
+To experience Shoekart as a demo user, navigate to (https://artisan-ecommerce-platform-admin-panel.vercel.app/) and use the following credentials:
+
+```plaintext
+Username: admin@gmail.com
+Password: 12345678
+```
 
 **Prerequisites**
 - Node.js (v14 or higher)
@@ -36,9 +41,9 @@ An online marketplace dedicated to showcasing and selling exquisite handcrafted 
 - MongoDB
 
 - npm or yarn
-
+#Installation
 Clone the repository
-
+https://github.com/KashaveniSruthi/artisan-ecommerce-platform.git
 
 
 **Frontend Setup**
