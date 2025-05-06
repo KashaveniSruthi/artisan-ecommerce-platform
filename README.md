@@ -28,10 +28,17 @@ An online marketplace dedicated to showcasing and selling exquisite handcrafted 
 
 - **Hosting**: Vercel
 
-To experience Shoekart as a demo user, navigate to (https://artisan-ecommerce-platform-admin-panel.vercel.app/) and use the following credentials:
+You can access the demo usersection by navigating to (https://artisan-ecommerce-platform-frontend.vercel.app/login) and using the following credentials:
 
 ```plaintext
-Username: admin@gmail.com
+Username: admin@forever.com
+Password: 12345678
+```
+
+To experience artisan-ecommerce as a admin user, navigate to (https://artisan-ecommerce-platform-admin-panel.vercel.app/) and use the following credentials:
+
+```plaintext
+Username: admin@forever.com
 Password: 12345678
 ```
 
